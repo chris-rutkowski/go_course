@@ -18,7 +18,9 @@ projects:
 structs (pointers) slices are data structure that holds pointer to underlying array, that's why we can pass slices without a pointer (it creates a copy of slice, but that copy has the same array pointer)
 similar other reference types: maps, channels, pointers, functions
 
-go run main.go
+`go run main.go`
 
+```
 go build main.go 
 ./main.go
+```
